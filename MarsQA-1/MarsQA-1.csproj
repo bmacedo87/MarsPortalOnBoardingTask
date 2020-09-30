@@ -444,10 +444,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SpecflowPages\Helpers\CommonMethods.cs" />
     <Compile Include="SpecflowPages\Helpers\ConstantHelpers.cs" />
     <Compile Include="SpecflowPages\Helpers\Driver.cs" />
-    <Compile Include="SpecflowPages\Helpers\ExcelLibHelper.cs" />
     <Compile Include="SpecflowPages\Pages\ProfilePage.cs" />
     <Compile Include="SpecflowPages\Pages\SignIn.cs" />
     <Compile Include="SpecflowPages\Utils\Start.cs" />
@@ -462,15 +460,9 @@
     <None Include="Feature\Login.feature" />
     <None Include="Feature\ManualTests.feature" />
     <None Include="Feature\Skills.feature" />
-    <None Include="SpecflowTests\Data\Data.xlsx" />
     <None Include="packages.config" />
-    <None Include="SpecflowTests\Data\Mars.xlsx" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SpecflowTests\Bind_Steps\" />
-    <Folder Include="TestReports\Screenshots\" />
-    <Folder Include="TestReports\Test_files\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
